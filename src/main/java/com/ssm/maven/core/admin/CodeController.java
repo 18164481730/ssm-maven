@@ -74,7 +74,6 @@ public class CodeController {
         // 将四位数字的验证码保存到Session中。
         HttpSession session = req.getSession();
         session.setAttribute("code", randomCode.toString());
-        System.out.println(session.getAttribute("code"));
         // 禁止图像缓存。
         resp.setHeader("Pragma", "no-cache");
         resp.setHeader("Cache-Control", "no-cache");
