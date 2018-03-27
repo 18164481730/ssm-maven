@@ -4,24 +4,24 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>pictureManger</title>
-    <link href="${pageContext.request.contextPath}/css/base.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/tab.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/item.css" type="text/css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/css/item_do.css" type="text/css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/base.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/tab.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/item.css" type="text/css" rel="stylesheet"/>
+    <link href="${pageContext.request.contextPath}/css/item_do.css" type="text/css" rel="stylesheet"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/uploadify.css" type="text/css"></link>
-
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/jquery-easyui-1.3.3/themes/default/easyui.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/jquery-easyui-1.3.3/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/jquery-easyui-1.3.3/themes/default/easyui.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/jquery-easyui-1.3.3/themes/icon.css"/>
     <script type="text/javascript" src="${pageContext.request.contextPath}/jquery-easyui-1.3.3/jquery.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/jquery-easyui-1.3.3/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/jquery-easyui-1.3.3/locale/easyui-lang-zh_CN.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.uploadify.v2.0.3.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/swfobject.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/common.js"></script>
     <%
 		String type = request.getParameter("type");
 		String grade = request.getParameter("grade");
 	%>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/js/common.js"/>
+</head>
 <body style="margin:1px;" id="ff">
 <table id="dg" title="图片信息管理" class="easyui-datagrid" pagination="true"
        rownumbers="true" fit="true" data-options="pageSize:10"
